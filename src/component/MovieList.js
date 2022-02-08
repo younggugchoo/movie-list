@@ -22,7 +22,7 @@ function MovieList() {
     //console.log(movies);
 
     useEffect(() => {
-        getMovies();
+        getMovies();    
     }, []);
 
     return(
